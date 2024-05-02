@@ -61,7 +61,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 [Hotel Management Site Live](https://healtifycarepro.netlify.app/)
 
 **Render Link**
-[Hotel Management Site on Render](https://hotel-management-site.onrender.com/)
+[Hotel Management Site on Render](https://hospitalmanagementsite-1.onrender.com/)
 
 ### `npm run build` fails to minify
 
