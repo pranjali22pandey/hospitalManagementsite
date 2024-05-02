@@ -58,7 +58,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 **Live Site**
-[Hotel Management Site Live](https://hotel-management-site.netlify.app/)
+[Hotel Management Site Live](https://healtifycarepro.netlify.app/)
 
 **Render Link**
 [Hotel Management Site on Render](https://hotel-management-site.onrender.com/)
