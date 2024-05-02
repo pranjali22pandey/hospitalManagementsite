@@ -1,0 +1,62 @@
+/* /src/components/Patients.css */
+
+.patient-main {
+    display: flex;
+    justify-content: space-between; /* Add space between sections */
+}
+
+.form-sections {
+    width: 48%; /* Adjusted width for better balance */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 20px; /* Added padding for spacing */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.patients-section {
+    width: 48%; /* Adjusted width for better balance */
+    height: auto; /* Allow height to adjust based on content */
+}
+
+.patient-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px; /* Increased margin-bottom for more spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.patient-card:hover {
+    transform: translateY(-5px); /* Adjusted hover effect for better visual feedback */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+
+.patient-card h4 {
+    margin-bottom: 12px; /* Slightly increased margin for better readability */
+    font-size: 18px; /* Increased font size for headings */
+}
+
+.patient-card p {
+    margin: 8px 0;
+    font-size: 14px; /* Adjusted font size for content */
+}
+
+.patient-card button {
+    margin-top: 12px; /* Increased top margin for better spacing */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px; /* Adjusted padding for better button size */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+
+}
+
+.patient-card button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

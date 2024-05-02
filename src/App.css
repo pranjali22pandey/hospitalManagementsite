@@ -1,0 +1,82 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a clean, modern font */
+  margin: 0;
+  padding: 0;
+  background-color: #ede8f5; /* Light purple-gray background */
+  color: #3d52a0; /* Dark text color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ede8f5; /* Light purple-gray background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Navigation Styles */
+nav {
+  background: linear-gradient(45deg, #7091e6, #7091e6); /* Blue navigation bar */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff; /* White link color */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #022d6d; /* Yellow on hover */
+  background: linear-gradient(45deg, #e6e6fa, #d8bfd8); /* Lavender gradient on hover */
+}
+
+.active {
+  color: #031238; /* Yellow for active link */
+}
+
+/* Flex Styles */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Additional Custom Styles */
+/* Add your custom styles here */
+
+/* Cursive Font Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: cursive; /* Set font family to cursive for headings */
+}
+
+p, span, a {
+  font-family: cursive; /* Set font family to cursive for paragraphs, spans, and links */
+}

@@ -1,0 +1,169 @@
+/* appointment-card */
+.appointment-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.appointment-card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.appointment-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.appointment-card p span {
+    font-weight: 900;
+}
+
+/* Update button colors */
+.appointment-card button {
+    background-color: #3d52a0; /* Test color */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    height: 70px;
+    width: 45%;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-card button:hover {
+    background-color: #7091e6; /* Window color */
+}
+
+/* AppointmentForm.css */
+.appointment-form {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.appointment-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Update button colors */
+.appointment-form button {
+    background-color: #3d52a0; /* Test color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-form button:hover {
+    background-color: #7091e6; /* Window color */
+}
+
+/* Appointments.css */
+.appointments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 30vw;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+/* General Styles */
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #ede8f5;
+    color: #3d52a0;
+}
+
+.container {
+    max-width: 1500px;
+    height: 500vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ede8f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+nav {
+    background: linear-gradient(45deg, #7091e6, #7091e6);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffd700;
+    background: linear-gradient(45deg, #e6e6fa, #d8bfd8);
+}
+
+.active {
+    color: #ffd700;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
